@@ -1,0 +1,4 @@
+#Fri Jun 26 21:11:03 BDT 2020
+base.0=D\:\\AndroidStdioProject\\Android-Attendance-App-master\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

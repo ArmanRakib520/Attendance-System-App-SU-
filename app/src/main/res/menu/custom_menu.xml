@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_more"
+        android:orderInCategory="100"
+        android:title=""
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        app:showAsAction="always" >
+        <menu>
+
+            <item
+                android:id="@+id/action_clearSgpa_field"
+                android:orderInCategory="100"
+                android:title="Clear SGPA fields"
+                android:icon="@drawable/ic_user"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/action_clearCredit_field"
+                android:orderInCategory="100"
+                android:title="Clear Credit fields"
+                android:icon="@drawable/ic_user"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/action_clearAll_field"
+                android:orderInCategory="100"
+                android:title="Clear all fields"
+                android:icon="@drawable/ic_user"
+                app:showAsAction="ifRoom" />
+
+
+        </menu>
+    </item>
+</menu>
